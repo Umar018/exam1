@@ -1,0 +1,32 @@
+* {
+  font-family: FreeMono, monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+  background-color: gainsboro;
+  padding: 40px;
+  width: 100vw;
+}
+.card {
+  width: 200px;
+  padding: 30px;
+  width: 330px;
+  border-radius: 15px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
